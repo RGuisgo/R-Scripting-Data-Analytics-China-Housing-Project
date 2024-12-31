@@ -13,10 +13,10 @@ Model the relationship of housing type, structure and locality with prices in Be
 Model other variables that are in relation with the pricing of houses in Beijing 
 
 **Method**
-Dataset cleaning
-Imputation of missing values
-Detection and elimination of outliers 
-Statistical summary
-Descriptive analysis
+Dataset cleaning,
+Imputation of missing values,
+Detection and elimination of outliers ,
+Statistical summary,
+Descriptive analysis,
 ANOVA, correlation and rational hypotheses
 
