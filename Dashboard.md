@@ -8,3 +8,5 @@
 
 ## Correlation between Building type and Total Price
 ![Building type and Toatal Price](plots/buildingtypeprice.png)
+
+
