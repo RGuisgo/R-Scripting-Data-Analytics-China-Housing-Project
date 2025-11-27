@@ -1,12 +1,22 @@
 # 📊 Beijing Housing Project Dashboard
 
-## Box Plots
-![Anova Plots](plots/anovaproject.png)
+## Distribution of Prices by Districts
+![Boxplots](plots/Totalprice_district.png)
 
 ## Correlation between Building structure and Total Price
-![Building Structure and Toatal Price](plots/buildingstructuretotalprice.png)
+![Scatter plot](plots/buildingstructuretotalprice.png)
 
-## Correlation between Building type and Total Price
-![Building type and Toatal Price](plots/buildingtypeprice.png)
+## Distribution by Building type and Total Price
+![Barplot](plots/buildingtypeprice.png)
 
+## Correlation between Total Price and Area in square meters
+![SCatter PLot](plots/correlationproject.png)
 
+## Correlation between Total Price and District
+![Scatter Plot](plots/dot.png)
+
+## Scatter Plot of Area by Price stratified by Building Type
+![Scatter Plot](plots/scatterbuilding.png)
+
+## Scatter Plot of Area by Price stratified by District
+![SCatter Plot](plots/scatterdistrict.png)
