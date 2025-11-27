@@ -1,28 +1,43 @@
-# R-Scripting-Data-Analytics-China-Housing-Project
+# China Housing Market – Exploratory Data Analysis & Price Drivers (R)
 
-**Analysis of Housing Price in Beijing - China**
+## 📌 Overview
+This project analyzes housing prices in Beijing, China, using cross-sectional data to understand the impact of house characteristics, structure, and location on pricing.  
 
-Data Type: Cross-sectional data
-Data Source: Kaggle
-Time line: 2018
-Sample Size: 221
-Main Variables: Total price (1000 ￥), Price (￥/ 𝑚^2), Square, Number of rooms, Building type, Construction time, Renovation condition, Building structure and District
+- **Data Source:** Kaggle  
+- **Year:** 2018  
+- **Sample Size:** 221  
+- **Main Variables:** Total price (1000 ¥), Price per square meter (¥/m²), Area (㎡), Number of rooms, Building type, Construction year, Renovation condition, Building structure, District  
 
-**Objective**
-Model the relationship of housing type, structure and locality with prices in Beijing 
-Model other variables that are in relation with the pricing of houses in Beijing 
+## 🥅 Objective
+- Examine how housing type, structure, and location affect house prices in Beijing.  
+- Explore relationships between other house features and pricing patterns.  
 
-**Method**
-Dataset cleaning,
-Imputation of missing values,
-Detection and elimination of outliers ,
-Statistical summary,
-Descriptive analysis,
-ANOVA, correlation and rational hypotheses
+## 🛠️ Methods
+- Data cleaning and missing value imputation  
+- Outlier detection and removal  
+- Statistical summary and descriptive analysis  
+- ANOVA, correlation analysis, and hypothesis testing  
 
-**Conclusion**
+## 🔍 Key Findings
+- **Location is the strongest factor** affecting housing prices:  
+  - High-priced houses are concentrated in **Dongcheng District**.  
+  - Low-priced houses are found in **Shijingshan, Haidian, and Changping Districts**.  
+  - Mid-priced houses are located mainly in **Mentougou and Shijingshan Districts**.  
+- **Interior features influence prices:**  
+  - Number of living rooms shows a positive correlation with price.  
+  - Surprisingly, total area does not correlate strongly with price overall, but stratifying the data reveals some positive correlation within price tiers.  
+- **Building type has minimal impact:**  
+  - No significant price differences between Tower, Plate, or mixed building types.  
 
-Locality of the house contributes much to the house pricing. Most high-priced houses are located in Dongcheng District, while the low-priced houses are located in Shijingshan District, Haidian and Changping District. The middle-priced houses are located in Mentougou District and Shijingshan District.
-Additionally, it is determined that the interior of the house has also play a role in house pricing. The number of living rooms has positive correlation with the house. However, it is strange that the area of the house has no direct relation with the price. But after stratifying the total price variable it is found that there is some positive correlation between are and price of the house.
-Moreover, it is found that there is no relation between the type of the building and the price of the house. Three different types of buildings were analyzed i.e. Tower Building, Plate building and a combination of both tower and plate building. However, there was no apparent relation between the price and building type.
-In nutshell, the location of the house has highest effect on the prices of houses in Beijing
+**Conclusion:**  
+Location dominates the housing market pricing in Beijing, followed by interior features such as the number of rooms. Building type appears less relevant.
+
+## 🛠️ Tools
+- **Language:** R  
+- **Packages:** tidyverse, ggplot2, dplyr  
+
+## ▶️ How to Run
+1. Open the `analysis.R` script in RStudio.  
+2. Run all sections sequentially to reproduce data cleaning, analysis, and visualizations.  
+3. Output plots are saved in the `/plots` folder.  
+
